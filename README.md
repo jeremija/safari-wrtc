@@ -75,6 +75,7 @@ connection attempts from Safari with the following error:
 # Workaround
 
 The client can automatically keep track of iceCandidates and manually increase
-the counter as done in [jeremija/simple-peer@`3be31eac`][1].
+the counter as done in [jeremija/simple-peer@`3be31eac`][1], but this seems
+fragile.
 
 [1]: https://github.com/jeremija/simple-peer/commit/3be31eac590a6e404685c6c2d86c457eebe7f2e9
