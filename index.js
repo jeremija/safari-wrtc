@@ -7,8 +7,7 @@ function createPeer (stream) {
   console.log('createPeer', stream)
 
 	var pc = new RTCPeerConnection({ iceServers: iceServers })
-  // create a bogus data channel
-  // pc.createDataChannel('a')
+
   if (pc.addTrack) {
     stream.getTracks().forEach(function (track) {
       console.log('addTrack', track)
